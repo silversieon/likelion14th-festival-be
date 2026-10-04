@@ -123,7 +123,7 @@ Map<Long, Map<SseSubscribeType, List<SseEmitter>>> emitters = new ConcurrentHash
 
 ```mermaid
 flowchart LR
-    A[OrderService<br/>@Transactional] -->|publishEvent<br/>WaitingOrderPayload 등| B((Spring Event))
+    A[OrderService<br/>#64;Transactional] -->|publishEvent<br/>WaitingOrderPayload 등| B((Spring Event))
     A --> C[(DB COMMIT)]
     C -->|AFTER_COMMIT| D[OrderEventListener]
     D --> E[OrderSseService<br/>SSE 전송]
