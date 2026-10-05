@@ -1,5 +1,4 @@
-# 서경대학교 멋쟁이사자처럼 14기 홈페이지 레포지토리입니다.
-
+# 서경대학교 멋쟁이사자처럼 14기 축제 페이지 BE 레포지토리입니다.
 
 1. [Intro](#intro)
 2. [System Architecture](#system_architecture)
